@@ -1,17 +1,15 @@
 nav {
-    color: rgb(0, 0, 0);
-    width: 500px;
-    border: 1.5px solid rgb(160, 115, 115);
-    background-color: steelblue;
-    padding: 35px;
-    text-align:center
-
+    width: 550px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: #C6EBBE;
+    padding: 20px;
+    text-align: left
 }
 
 html {
-font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high */
-font-family: "Open Sans", sans-serif; /* this should be the rest of the output you got from Google Fonts */
-background-color: #cbdde2;
+font-size: 15px; 
+font-family: "Open Sans", sans-serif; 
+background-color: #13293d;
 }
 
 h1 {
@@ -20,29 +18,61 @@ text-align: center;
 text-shadow: 2px 3px 2px rgb(75, 73, 73);
 margin: 0;
 padding: 20px 0;
+font-family:'kaushan_scriptregular';
 }
+
 
 p,li {
 font-size: 15px;
 line-height: 2;
 letter-spacing: 0.5px;
+
 }
 
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ffffff;
+    background-color: #d4cdf4;
     padding: 0 20px 100px 20px;
     border: 5px solid rgb(0, 0, 0);
   }
+
+main {
+  max-width: 840px;
+  display: block
+;
+}
+
+aside{
+  display: block; 
+  width: 400px;
+  height: auto;
+  margin: auto;
+  border:1px solid#000000;
+  padding: 40px;
+  background-color: #C6EBBE;
+  color: #000000;
+}
+
+aside img{
+  width: 200px;
+  height: auto;
+}
+
+p {padding: 0;}
+
+h2{
+  text-align: center;
+}
 
 img {
     display: block;
     margin: 0 auto;
     border: 10px #ca6060;
-
   }
 
 footer {
     text-align: center;
+    margin-top: 1em;
+    border-top: 1px solid black;
 }
