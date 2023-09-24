@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Skranji&display=swap');
+:root {
+    --primary-color: #662c91 ;
+    --secondary-color: #4281A4 ;
+    --accent1-color: #EAF6FF ;
+    --accent2-color: #14110F ;
+
+    --heading-font: 'skranji', serif;
+    --paragraph-font: 'mukta', serif;
+    
+    --nav-background-color: #14110F ;
+    --nav-link-color: #662c91 ;
+    --nav-hover-link-color: #662c91 ;
+    --nav-hover-background-color: #14110F ;
+}
+
+body{
+    font-variant: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-variant: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header{
+    padding: 20px;
+    background-color: var(--nav-background-color);
+}
+
+p{
+    padding: 25px;
+}
+
+nav{
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
