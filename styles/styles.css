@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 nav {
     width: 550px;
     border: 1px solid rgb(0, 0, 0);
@@ -26,22 +33,21 @@ p,li {
 font-size: 15px;
 line-height: 2;
 letter-spacing: 0.5px;
-
 }
 
 body {
     width: 600px;
-    margin: 0 auto;
+    margin: auto;
     background-color: #d4cdf4;
     padding: 0 20px 100px 20px;
     border: 5px solid rgb(0, 0, 0);
   }
 
-main {
+/*main {
   max-width: 840px;
   display: block
 ;
-}
+}*/
 
 aside{
   display: block; 
@@ -50,25 +56,29 @@ aside{
   margin: auto;
   border:1px solid#000000;
   padding: 40px;
-  background-color: #C6EBBE;
-  color: #000000;
+ /* background-color: #C6EBBE;
+  color: #000000;*/
+  position: relative;
 }
 
 aside img{
-  width: 200px;
+  width: 370px;
   height: auto;
 }
 
-p {padding: 0;}
 
-h2{
+aside h2{
   text-align: center;
+  position: absolute;
+  top: 30px;
+  left: 100px;
 }
 
 img {
     display: block;
     margin: 0 auto;
     border: 10px #ca6060;
+    float: right;
   }
 
 footer {
@@ -76,3 +86,16 @@ footer {
     margin-top: 1em;
     border-top: 1px solid black;
 }
+
+/* Class Selectors */
+
+.box {
+  margin: 1rem; 
+  border: 1px solid #000000;
+  padding: 1rem;
+
+  background-color: #C6EBBE;
+  color: #000000;
+}
+
+
