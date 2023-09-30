@@ -14,45 +14,58 @@
     --nav-hover-background-color: #14110F ;
 }
 
-body{
-    font-family: var(--paragraph-font);
-    max-width: 960px;
-    padding: 20px;
-}
+
+
+/*header{
+    background-color:var(--nav-background-color);
+    padding: 0 365px;
+    margin: 10px;
+}*/
 
 h1,h2,h3,h4,h5,h6{
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
-header{
-    padding: 20px;
-    background-color: var(--nav-background-color);
-}
-
 p{
-    padding: 25px;
+    font-family: var(--paragraph-font);
+    font-size: large;
 }
 
-nav{
-    background-color: var(--nav-background-color);
-    font-size: 1.2rem;
-    display: flex;
-}
-
-nav a {
-    display: block;
-    color: var(--nav-link-color);
+a{
     text-decoration: none;
-    padding: 1rem;
 }
 
-nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+.hero{
+    position:relative
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
+
+.hero h1{
+    position: absolute;
+    top: 0px;
+    left: 800px;
+    font-size: 50px;
+}
+
+article {
+    position: absolute;
+    top: 325px;
+    display: block;
+    background-color: #4281A4;
+    padding: 5px;
+    left: 65px;
+}
+
+.hero1 img{
+    float: right;
+    padding: 25px;
+    margin: auto;
+}
+
 
