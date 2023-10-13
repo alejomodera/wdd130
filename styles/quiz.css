@@ -11,10 +11,10 @@ html {
 header {
     font-weight: 600;
     font-size: 25px;
-    font-style: italic;
+    color: blue;
     padding: 0.5rem;
     margin: 1rem;
-    margin-left: 3rem;
+    margin-left: 0;
 }
 
 body{
@@ -56,9 +56,12 @@ button{
     margin: 10px;
     text-align: center;
     font-size: larger;
+    background-color: blue;
+    color: white;
 }
 
 button:hover {
     background-color:dodgerblue;
 }
+
 
