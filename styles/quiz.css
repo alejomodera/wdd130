@@ -1,0 +1,64 @@
+html {
+    margin: auto;
+}
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-width: 750px;
+    box-sizing: border-box;
+}
+
+header {
+    font-weight: 600;
+    font-size: 25px;
+    font-style: italic;
+    padding: 0.5rem;
+    margin: 1rem;
+    margin-left: 3rem;
+}
+
+body{
+    font-size: 15px;
+}
+
+form {
+    display: grid;
+    border: 1px solid black;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    row-gap: 10px;
+    width: 650px;
+}
+
+
+input, select, number{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    
+    
+}
+
+textarea {
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    height: 100px;
+}
+
+button{
+    box-sizing: border-box;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    font-size: larger;
+}
+
+button:hover {
+    background-color:dodgerblue;
+}
+
