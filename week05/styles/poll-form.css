@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Open+Sans&family=Skranji&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: aliceblue;
+    font-size: medium;
+}
+
+header{
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    padding: 15px;
+    font-size: larger;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 20px;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    align-self: center;
+    width: 600px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    background-color:aqua;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 10px;
+    padding: 20px;
+    border: 1px solid black;
+    margin: 20px;
+
+}
+
+legend {
+    font-weight: 800;
+    font-size: larger;
+    padding: 10px;
+}
+
+label {
+    text-align: left;
+    padding-right: 1rem;
+}
+
+input, select, textarea {
+    font-size: larger;
+    padding: 10px;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button:hover {
+    background-color:blanchedalmond;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    color: black;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
