@@ -298,3 +298,120 @@ button{
 .button:hover {
     background-color:dodgerblue;
 }
+
+.trips-main1 {
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+}
+
+
+.imgtrips img {
+    max-width: 1887px;
+}
+
+.imgtrips h1 {
+    position: absolute;
+    top: 18rem;
+    left: 50rem;
+    font-size: 60px;
+    color:#EAF6FF;
+}
+
+.class-I{
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+}
+
+.class-I img{
+    grid-column: 2/3;
+    max-height: 500px;
+    max-width: 450px;
+}
+
+.class-I h2, p{
+    grid-column: 2/3;
+}
+
+.trips-table1 {
+    grid-column: 3/4;
+    border-left:  1px solid black;
+    margin-top: 9rem;
+    padding-left: 4.5rem;
+    font-size: larger;
+    font-family: var(--paragraph-font);
+    height: fit-content;
+}
+
+.trips-main2 {
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+}
+
+
+.class-II{
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+
+}
+
+.class-II img{
+    grid-column: 2/3;
+    max-height: 500px;
+    max-width: 450px;
+}
+
+.class-II h2, p{
+    grid-column: 2/3;
+}
+
+.trips-table2 {
+    grid-column: 3/4;
+    border-left:  1px solid black;
+    margin-top: 9rem;
+    padding-left: 4.5rem;
+    font-size: larger;
+    font-family: var(--paragraph-font);
+    height: fit-content;
+}
+
+.trips-main3 {
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+}
+
+
+.class-III{
+    display: grid;
+    grid-template-columns: repeat(4, 30rem);
+
+}
+
+.class-III img{
+    grid-column: 2/3;
+    max-height: 500px;
+    max-width: 450px;
+}
+
+.class-III h2, p{
+    grid-column: 2/3;
+}
+
+.trips-table3 {
+    grid-column: 3/4;
+    border-left:  1px solid black;
+    margin-top: 9rem;
+    padding-left: 4.5rem;
+    font-size: larger;
+    font-family: var(--paragraph-font);
+    height: fit-content;
+}
+
+.trips-contact-button {
+    margin-left: 45rem;
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+    color: #14110F;
+    background-color: #4281A4;
+    width: 500px;
+    height: 100px;
+}
