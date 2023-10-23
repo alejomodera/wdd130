@@ -415,3 +415,125 @@ button{
     width: 500px;
     height: 100px;
 }
+
+
+
+/*INDEX TAB*/
+
+.index-main-img img {
+    width: 100%;
+}
+
+.index-main-img h1 {
+    position: absolute;
+    top: 18rem;
+    left: 50rem;
+    font-size: 50px;
+    color: black;
+}
+
+.index-paragraph {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    margin: 3rem;
+}
+
+.index-paragraph p{
+    grid-column: 2/3;
+    text-align: center;
+}
+
+.index-paragraph a{
+    display: grid;
+    grid-row: 2/3;
+    grid-column: 2/3;
+    max-height: 8rem;
+    justify-content: center;
+    justify-self: center;
+}
+
+
+.web-nav {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.nav1 {
+    display: grid;
+    justify-content: end;
+}
+
+.nav1 img{
+    display: block;
+    margin: auto;
+    max-height: 450px;
+    max-width: 400px;
+    /*margin: 3rem;
+    margin-bottom: 1rem;*/
+}
+
+.nav1 h2{
+    text-align: center;
+    margin-top: 1rem;
+    /*margin-left: 12.5rem;*/
+}
+
+.nav2 {
+    display: grid;
+    justify-content: center;
+}
+
+.nav2 img{
+    max-height: 450px;
+    max-width: 400px;
+   /* margin: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;*/
+}
+
+.nav2 h2{
+    margin-top: 1rem;
+    text-align: center;
+    /*margin-left: 12.5rem;*/
+}
+
+.nav3 {
+    display: grid;
+    justify-content: left;
+}
+
+.nav3 img{
+    
+    max-height: 450px;
+    max-width: 400px;
+    /*margin: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 1rem;*/
+}
+
+.nav3 h2{
+    margin-top: 1rem;
+    text-align: center;
+    /*margin-left: 12.5rem;*/
+}
+
+
+.newsletter-form {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.newsletter-form form{
+    grid-column: 2/3;
+    height: 500px;
+    gap: 2rem;
+    margin-top: 5rem;
+    width: 500px;
+    margin-bottom: 3rem;
+}
+
+.index-form h1 {
+    text-align: center;
+}
