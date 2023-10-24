@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@700&family=Mukta:wght@300&family=Open+Sans&family=Skranji&display=swap');
 :root {
     --primary-color: #662c91 ;
-    --secondary-color: #4281A4 ;
+    --secondary-color: #ADBDFF;
     --accent1-color: #EAF6FF ;
-    --accent2-color: #14110F ;
+    --accent2-color: #1f1f1f ;
 
-    --heading-font: 'skranji', serif;
+    --heading-font: 'Cabin', serif;
     --paragraph-font: 'mukta', serif;
     
-    --nav-background-color: #14110F ;
+    --nav-background-color: #1f1f1f ;
     --nav-link-color: #662c91 ;
     --nav-hover-link-color: #662c91 ;
     --nav-hover-background-color: #14110F ;
@@ -20,11 +20,11 @@ header {
     border-bottom: 1px solid var(--nav-link-color);
     justify-items: center;
     justify-content: center;
+    font-family: var(--paragraph-font);
 }
 
 header{
     background-color: var(--nav-background-color);
-
 }
 
 .navigation {
@@ -58,6 +58,7 @@ p{
 
 a{
     text-decoration: none;
+    color: whitesmoke;
 }
 
 .hero{
@@ -68,27 +69,28 @@ a{
     display: block;
     width: 100%;
     height: auto;
-    margin-top: 15px;
 }
 
 
 
 .hero h1{
     position: absolute;
-    top: 0px;
-    left: 50rem;
-    font-size: 50px;
+    top: 2rem;
+    left: 45rem;
+    font-size: 45px;
+    letter-spacing: 3px;
 }
 
 article {
     position: absolute;
     top: 20rem;
     display: block;
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
     padding: 5px;
     left: 3rem;
     right: 3rem;
     bottom: 15rem;
+    max-height: fit-content;
 }
 
 .hero1 img{
@@ -99,18 +101,18 @@ article {
 
 .history {
     display: grid;
-    background-color: var(--nav-hover-background-color);
+    grid-template-columns: repeat(3, 1fr);
+    /*background-color: var(--nav-hover-background-color);*/
     margin-top: 15px;
-    
 }
 
 .history h2 {
     display: grid;
     grid-template-columns: 1fr;
     font-size: 50px;
-    grid-column: 1/2;
+    grid-column: 2/3;
     justify-items: center;
-
+    margin-bottom: 0;
 }
 
 .history p{
@@ -120,14 +122,16 @@ article {
     font-family: var(--paragraph-font);
     margin: 3rem;
     padding: 3rem;
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
+    grid-column: 1/4;
 }
 
 .adventure {
     display: grid;
-    background-color: #14110F;
+    /*background-color: #14110F;*/
     margin-top: 15px;
-    grid-template-columns: repeat(5,380px);
+    grid-template-columns: repeat(5,375px);
+    margin-bottom: 5rem;
 }
 
 .adventure h2 {
@@ -171,29 +175,58 @@ article {
 
 
 .adventure figcaption {
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
 }
 
 footer, .sociallinks {
     display: flex;
-    background-color: #4281A4;
+    background-color: var(--nav-background-color);
     margin-top: 15px;
     flex-direction: row;
     justify-content: space-between;
     gap: 20px;
+    color: whitesmoke;
+    padding-right: 25px;
+    align-items: center;
+}
+
+.footer-p {
+    margin-left: 50px;
 }
 
 
 
-/*W05 SECTION*/
+/*CONTACT SECTION*/
+
+.hero-contact{
+    position:relative
+}
+
+.hero-contact img {
+    display: block;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
+.hero-contact h1{
+    position: absolute;
+    top: 2rem;
+    left: 44rem;
+    font-size: 45px;
+    letter-spacing: 3px;
+}
 
 
 
 .employees {
     display: grid;
-    background-color: #14110F;
+    /*background-color: #14110F;*/
     margin-top: 15px;
     grid-template-columns: repeat(4,380px);
+    margin-bottom: 5rem;
 }
 
 .employees h2 {
@@ -211,7 +244,7 @@ footer, .sociallinks {
 }
 
 .employees figcaption {
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
 }
 
 
@@ -281,8 +314,10 @@ form {
     border: 1px solid var(--nav-background-color);
     padding: 1rem;
     margin-top: 15px;
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
     gap: 10px;
+    margin-bottom: 5rem;
+    font-family: var(--paragraph-font);
 }
 
 button{
@@ -291,13 +326,15 @@ button{
     margin: 10px;
     text-align: center;
     font-size: larger;
-    background-color: #662c91 ;
+    background-color: var(--primary-color) ;
     color: white;
 }
 
 .button:hover {
-    background-color:dodgerblue;
+    background-color: var(--secondary-color);
 }
+
+/*TRIPS SECTION*/
 
 .trips-main1 {
     display: grid;
@@ -409,9 +446,9 @@ button{
 .trips-contact-button {
     margin-left: 45rem;
     margin-top: 5rem;
-    margin-bottom: 7rem;
+    margin-bottom: 5rem;
     color: #14110F;
-    background-color: #4281A4;
+    background-color: var(--secondary-color);
     width: 500px;
     height: 100px;
 }
@@ -429,7 +466,7 @@ button{
     top: 18rem;
     left: 50rem;
     font-size: 50px;
-    color: black;
+    color: whitesmoke;
 }
 
 .index-paragraph {
@@ -527,7 +564,7 @@ button{
 
 .newsletter-form form{
     grid-column: 2/3;
-    height: 500px;
+    height: 530px;
     gap: 2rem;
     margin-top: 5rem;
     width: 500px;
